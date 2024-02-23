@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(./img/background1.jpg) no-repeat center center/ cover;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 46, 48);
+    padding: 5px;
+    width: 80%;
+    box-shadow: 0 0 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.header:hover{
+    box-shadow: 0 0 10px rgb(44, 29, 29);
+}
+.main-content{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    height: 350px;
+    background: url(./img/bg.jpg);
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    color: rebeccapurple;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.btn-area button{
+    background-color: rgb(64, 138, 188);
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 45px;
+    transition: 0.2s;
+    border: none;
+}
+.btn-area button:hover{
+    background-color: rgb(22, 63, 89);
+}
+.btn-area button:active{
+    background-color: lightblue;
+}
